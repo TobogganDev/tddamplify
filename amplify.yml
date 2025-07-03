@@ -10,8 +10,6 @@ backend:
                 # - npm run test:lambda
         build:
             commands:
-                # Initialiser l'environnement Amplify si nécessaire
-                - amplify env checkout --amplify '{"envName":"$AWS_BRANCH"}' || amplify env add --amplify '{"envName":"$AWS_BRANCH","projectName":"tddamplify","defaultEditor":"code"}' --yes
                 - amplifyPush --simple
 frontend:
     phases:
