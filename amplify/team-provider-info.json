@@ -15,7 +15,7 @@
       "function": {
         "tddamplifybe189c10": {
           "deploymentBucketName": "amplify-tddamplify-dev-0fb0d-deployment",
-          "s3Key": "amplify-builds/tddamplifybe189c10-75654d79783246796664-build.zip"
+          "s3Key": "amplify-builds/tddamplifybe189c10-37314c67313266643256-build.zip"
         }
       },
       "storage": {
