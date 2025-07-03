@@ -1,0 +1,33 @@
+{
+  "function": {
+    "tddamplifybe189c10": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_tddamplifybe189c10_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tddamplifybe189c10"
+        }
+      ]
+    },
+    "AMPLIFY_function_tddamplifybe189c10_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tddamplifybe189c10"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "dynamo32745535": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}
