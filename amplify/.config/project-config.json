@@ -8,7 +8,7 @@
   "javascript": {
     "framework": "vue",
     "config": {
-      "SourceDir": "src",
+      "SourceDir": ".",
       "DistributionDir": "dist",
       "BuildCommand": "npm run build",
       "StartCommand": "npm run dev"
